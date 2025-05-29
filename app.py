@@ -18,5 +18,8 @@ def welcome():
 def web():
     return "Welcome to th web page"
 
+@app.route("/html")
+def return_html():
+    return "<HTML><H1>ABHISHEK JAISWAL</H1></HTML>"
 if __name__=="__main__":
     app.run(debug=True)
