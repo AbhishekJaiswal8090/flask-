@@ -7,6 +7,7 @@
 
 # Ignore node_modules directory
 node_modules/
+venv
 
 # Ignore IDE-specific files
 .vscode/
